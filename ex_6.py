@@ -43,3 +43,22 @@ def f4(arg):
 
 with timer():
     f4(f3(f2(f1(data))))
+    
+    
+#########_декоратор_печатающий_результат_функции_########################################
+
+# def print_result(func):
+#     def wrapper(*args, **kwargs):
+#         rc = func(*args, **kwargs)
+#         print('function ' + func.__name__ + ' returns ' + repr(rc))
+#         return rc
+#     return wrapper
+#
+#
+# @print_result
+# def a(x=0):
+#     return x, x*x
+#
+# print('a(2) =', a(2))
+
+#######################################################################################
